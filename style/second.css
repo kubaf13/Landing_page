@@ -1,0 +1,161 @@
+@media (min-width: 600px) and (max-width: 1400px) {
+     .header {
+          position: fixed;
+          width: 100vw;
+          margin: 10px auto;
+          top: 40px;
+     }
+
+     .buttons {
+          z-index: 2;
+     }
+
+     .blue {
+          position: fixed;
+          width: 40vw;
+          height: 66vh;
+          right: 0;
+          top: 0;
+          background-image: linear-gradient(to bottom, #b4d3d3, #d9e7e7);
+     }
+
+     /* główne pole */
+     .middle {
+          margin-left: 15vw;
+          margin-right: 15vw;
+     }
+
+     .picture {
+          background-position: center;
+          bottom: 0;
+          right: 0;
+          width: 45%;
+          height: 100%;
+     }
+
+     .title {
+          top: 240px;
+          z-index: 2;
+     }
+
+     .small {
+          position: absolute;
+          bottom: 27vh;
+          left: -78px;
+          font-size: 14px;
+          z-index: 2;
+     }
+
+     .square {
+          position: absolute;
+          background-color: white;
+          width: 56px;
+          height: 7px;
+          margin-left: 13.5vw;
+          bottom: 27vh;
+     }
+}
+
+@media (min-width: 401px) and (max-width: 599px) {
+     .header {
+          position: fixed;
+          width: 100vw;
+          margin: 10px auto;
+          top: 5px;
+     }
+
+     nav {
+          position: fixed;
+          top: 85px;
+          left: 30px;
+          z-index: 2;
+     }
+
+     .menu--active {
+          transform: translateX(50px);
+     }
+
+     .buttons {
+          position: fixed;
+          display: inline-block;
+          text-align: center;
+          margin: 20px auto;
+          top: 135px;
+          width: 80vw;
+     }
+
+     a img {
+          width: 35px;
+          height: 35px;
+          margin-right: 10px;
+          top: 35px;
+     }
+
+     .buttons a img:hover {
+          margin-left: 0;
+          background-color: #b4d3d3;
+          border-radius: 15px;
+          margin-bottom: 15px;
+     }
+
+     .blue {
+          position: fixed;
+          width: 100vw;
+          height: 15vh;
+     }
+
+     /* główne pole */
+     .middle {
+          margin-left: 0;
+          margin-right: 0;
+     }
+
+     .picture {
+          background-position: center;
+          border-radius: 10px;
+          height: 100%;
+     }
+
+     .title {
+          top: 170px;
+          left: 5px;
+          font-size: 70px;
+          z-index: 2;
+     }
+
+     .small {
+          bottom: 27vh;
+          left: 8px;
+          font-size: 14px;
+     }
+
+     .square {
+          width: 156px;
+          height: 7px;
+          margin-left: 13.5vw;
+          bottom: 25vh;
+     }
+
+     section {
+          left: 0;
+          position: fixed;
+          width: 100vw;
+     }
+
+     .profile {
+          left: 0px;
+          width: 80vw;
+          height: 90px;
+     }
+
+     .profile p {
+          width: 170px;
+          height: 11px;
+          margin: 35px auto;
+     }
+
+     .fb2 {
+          width: 20vw;
+          height: 90px;
+     }
+}
